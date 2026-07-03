@@ -1,0 +1,33 @@
+.background {
+  background-color: #1f1f1f;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.text {
+  color: #bebdbd; 
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+#region-selector {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+#region-selector label {
+  color: #bebdbd; 
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#region-selector input[type="radio"] {
+  accent-color: #ff69b4;
+  cursor: pointer;
+  transform: scale(1.1);
+}
